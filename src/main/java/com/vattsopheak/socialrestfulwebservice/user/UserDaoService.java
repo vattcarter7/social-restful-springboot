@@ -1,6 +1,5 @@
 package com.vattsopheak.socialrestfulwebservice.user;
 
-import com.vattsopheak.socialrestfulwebservice.user.User;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
@@ -35,5 +34,4 @@ public class UserDaoService {
         users.add(user);
         return user;
     }
-
 }

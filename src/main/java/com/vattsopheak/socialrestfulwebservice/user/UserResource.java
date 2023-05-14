@@ -26,5 +26,6 @@ public class UserResource {
     @PostMapping("/users")
     public void createUser(@RequestBody User user) {
         service.save(user);
+
     }
 }
